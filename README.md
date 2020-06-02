@@ -16,3 +16,9 @@ This repository contains the inventory management application, built with ASP.NE
 * Restore the NuGet packages by rebuilding the solution.
 * Change the connection string in the ProductController.cs file.
 * Run the project(it will open a web browser with application running on it).
+
+
+## In the UI we will get three menu (navigation) items
+* Product Store : It is the Inventory Management Portal for Shop Admin.
+* Shopping Mart : It is the shopping portal for buyers/customers. Which will display all the products available in store, and will give a purchase option for each product.
+* Order Details : It will display the summary of all placed orders.

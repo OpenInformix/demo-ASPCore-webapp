@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace ASPCoreWebApp.Models
 {
-    public class ProductModel
+    public class OrderDetailsModel
     {
+        public int OrderID { get; set; }
         public int ProductID { get; set; }
         [DisplayName("Product Name")]
         public string ProductName { get; set; }
@@ -16,5 +17,6 @@ namespace ASPCoreWebApp.Models
         public decimal Price { get; set; }
         public int Count { get; set; }
 
+        public string ErrorMessage { get; set; }
     }
 }
