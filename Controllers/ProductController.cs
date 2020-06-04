@@ -12,7 +12,7 @@ namespace ASPCoreWebApp.Controllers
 {
     public class ProductController : Controller
     {
-        string connString = "DataBase=webapp;Server=ol_informix1410_9;User ID = informix; Password=Rinvoke1;";
+        string connString = "DataBase=webapp;Server=ol_informix1410_9;User ID = informix; Password=****;";
         [HttpGet]
         public ActionResult Index()
         {
